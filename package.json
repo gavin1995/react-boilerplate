@@ -1,0 +1,55 @@
+{
+  "name": "react-boilerplate",
+  "version": "1.0.0",
+  "description": "react 18 x webpack 5 x zustand",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config build/webpack.dev.js --port 8080",
+    "build": "webpack --config build/webpack.build.js --mode production ---verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavin1995/react-boilerplate.git"
+  },
+  "author": "Gavin<gavin199502@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavin1995/react-boilerplate/issues"
+  },
+  "homepage": "https://github.com/gavin1995/react-boilerplate#readme",
+  "dependencies": {
+    "antd-mobile": "^2.3.4",
+    "moment": "^2.29.1",
+    "react": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-dom": "^18.0.0-alpha-ed6c091fe-20210701",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "zustand": "^3.5.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "@hot-loader/react-dom": "^17.0.1",
+    "autoprefixer": "^10.3.1",
+    "babel-loader": "^8.2.2",
+    "babel-plugin-import": "^1.13.3",
+    "cache-loader": "^4.1.0",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "css-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.2",
+    "less": "^4.1.1",
+    "less-loader": "^10.0.1",
+    "postcss": "^8.3.6",
+    "postcss-loader": "^6.1.1",
+    "postcss-pxtorem": "^6.0.0",
+    "react-hot-loader": "^4.13.0",
+    "style-loader": "^3.2.1",
+    "thread-loader": "^3.0.4",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.0.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
