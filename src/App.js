@@ -1,6 +1,6 @@
 import React, { Suspense, lazy } from 'react'
 import { hot } from 'react-hot-loader/root'
-import { BrowserRouter as Router, Route } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 
 import Layout from './components/Layout';
 
@@ -10,9 +10,9 @@ const Page = () => (
   <Router>
     <Layout>
       <Suspense fallback={<div></div>}>
-        <Route path="/">
-          <Home/>
-        </Route>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+        </Routes>
       </Suspense>
     </Layout>
   </Router>
